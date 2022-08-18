@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         binding.bt1.setOnClickListener(View.OnClickListener {
             if (binding.ed1.text.toString().equals("willington") && binding.ed2.text.toString().equals("28")){
 
-                var act = Intent(this, MainActivity2 :: class.java)
+                var act = Intent(this, MainActivity3 :: class.java)
                 startActivity(act)
             }else{
                 Toast.makeText(this, "DATOS INCORRECTOS", Toast.LENGTH_LONG).show()
